@@ -21,7 +21,7 @@ CAMLYACC =@MENHIR@
 CAMLDOC =$(OCAMLFIND) ocamldoc $(CAMLFLAGS)
 
 BYTE = $(LIBNAME).cma
-NATIVE = $(LIBNAME).cmxa $(LIBNAME).a
+NATIVE = $(LIBNAME).cmxa $(LIBNAME).lib
 
 SOURCES1 = $(SOURCES:.mly=.ml)
 SOURCES2 = $(SOURCES1:.mll=.ml)
